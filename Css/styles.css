@@ -34,10 +34,9 @@ body {
   width: 100vw;
 }
 @media (max-width: 600px) {
-.site-header {
-  height: 50rem;
-
-}
+  .site-header {
+    height: 50rem;
+  }
 }
 h1 {
   font-size: 4.8rem;
@@ -135,9 +134,9 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
   }
-.sidebar {
-  position:inherit;
-}
+  .sidebar {
+    position: inherit;
+  }
 }
 .sidebar {
   width: 90%;
@@ -191,7 +190,27 @@ h1 {
   max-height: 90%;
   object-fit: cover;
   object-position: center;
+  position: relative;
+  transition: 1s;
 }
+.img-box .images:hover {
+  transform: scale(2);
+  border-radius: 20px;
+}
+@media (max-width: 600px) {
+  .img-box .images:active {
+    animation: zum 5s
+  }
+  @keyframes zum {
+    20%{
+      transform: scale(2);
+    }
+    100%{
+      transform: scale(2);
+    }
+  }
+}
+
 .bottom {
   margin-top: 20px;
   width: 100%;
