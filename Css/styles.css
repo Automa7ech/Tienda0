@@ -35,7 +35,7 @@ body {
 }
 @media (max-width: 600px) {
   .site-header {
-    height: 50rem;
+    height: 600px;
   }
   .site-header {
     background: linear-gradient(
