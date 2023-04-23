@@ -22,14 +22,6 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-  .site-header {
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.5),
-        rgba(83, 0, 0, 0)
-      ),
-      url(../img_base/banner2.jpg);
-  }
 }
 .site-header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(83, 0, 0, 0)),
@@ -44,6 +36,14 @@ body {
 @media (max-width: 600px) {
   .site-header {
     height: 50rem;
+  }
+  .site-header {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(83, 0, 0, 0)
+      ),
+      url(../img_base/banner2.jpg);
   }
 }
 h1 {
