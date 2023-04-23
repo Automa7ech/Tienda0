@@ -148,6 +148,16 @@ img {
   background-size: cover;
   height: 40rem;
 }
+@media (max-width: 768px) {
+  .site-header {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(83, 0, 0, 0)
+      ),
+      url(../img_base/banner2.jpg);
+  }
+}
 
 .site-header a {
   color: #ffffff;
